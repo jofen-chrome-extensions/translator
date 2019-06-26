@@ -11,4 +11,4 @@ How to translate full page:
 
 Install extension:
 -----------
-* [Chrome's web store](https://chrome.google.com/webstore/detail/condlopdddofpgcdjfnoepbdkcgckmgb/publish-delayed)
+* [Chrome's web store](https://chrome.google.com/webstore/detail/condlopdddofpgcdjfnoepbdkcgckmgb)
