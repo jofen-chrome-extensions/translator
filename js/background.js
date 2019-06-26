@@ -38,6 +38,11 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
-  console.log(info.menuItemId);
-  translate(info.selectionText, tab);
+  if (info.menuItemId == "selected"
+    translate(info.selectionText, tab);
+  } else if (info.menuItemId == "full")
+    translateFullPage(tab);
+  } else {
+    console.log("item " + info.menuItemId + " was clicked");
+  }
 });
