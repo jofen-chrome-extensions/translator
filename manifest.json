@@ -2,18 +2,16 @@
   "name": "Translator",
   "description": "Right Click to translate selected text using Google Translate",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "background": {
-    "scripts": ["js/common.js","js/background.js"],
-    "persistent": false
+    "service_worker": "js/service_worker.js"
   },
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "options_ui": {
     "page": "options.html",
-    "open_in_tab": false,
-    "chrome_style": true
+    "open_in_tab": false
   },
   "icons": {
     "16": "images/icon16.png",

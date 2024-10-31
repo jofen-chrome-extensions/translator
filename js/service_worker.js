@@ -1,0 +1,1 @@
+importScripts('common.js', 'background.js');
